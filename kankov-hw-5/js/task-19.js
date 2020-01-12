@@ -6,7 +6,6 @@ function doBiggerCheck(arr, checkNum){
             return true
         }
     }
-    return false
 }
 
 console.log(doBiggerCheck(numArr, 15))

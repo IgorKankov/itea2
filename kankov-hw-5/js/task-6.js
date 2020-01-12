@@ -25,10 +25,8 @@ const users = [
 
 function doBirthday(userInfo){
     for(let obj of userInfo){
-        for(let key in obj){
            obj.yearOfBirth = dateArr[3] - obj.age
          }
-        }
     return userInfo
 }
 

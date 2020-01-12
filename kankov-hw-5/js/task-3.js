@@ -20,8 +20,8 @@ const objArr = [
 function doAgeCheck(arr){
     let newArr = []
     for(let i = 0; i < arr.length; i++){
-        if(arr.age < 18){
-
+        if(arr[i].age > 18){
+             newArr.push(arr[i]);
         }
     }
     return newArr

@@ -23,14 +23,12 @@ const users = [
 
 function doSalaryChek(arr){
     for(let obj of arr){      
-        for(let key in obj){
             if(obj.salary >= 1000){
                 obj.isRich = true
             } else {
                 obj.isRich = false
             }
         }
-    }
     return arr
 }
 
