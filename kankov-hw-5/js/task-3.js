@@ -18,14 +18,13 @@ const objArr = [
 ]
 
 function doAgeCheck(arr){
-    for(let obj of arr){
-            for(let key in obj){
-                if(obj.age < 18){
-                arr.splice(arr.indexOf(obj), 1)
-            }
+    let newArr = []
+    for(let i = 0; i < arr.length; i++){
+        if(arr.age < 18){
+
         }
-        return arr
     }
+    return newArr
 }
 
 console.log(doAgeCheck(objArr))

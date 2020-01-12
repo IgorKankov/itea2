@@ -6,6 +6,7 @@ function doElemCheck(arr, el){
              return true
         } 
     }
+    return false
 }
 
 console.log(doElemCheck(array, 9))
